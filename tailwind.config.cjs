@@ -55,6 +55,13 @@ module.exports = {
                             fontFamily: 'Open Sans',
                             fontWeight: 500
                         },
+                        h1: {
+                            letterSpacing: '0.3rem',
+                            textShadow: '0.3rem 0.3rem 0 rgb(var(--color-shadow-light))',
+                            'html.dark &': {
+                                textShadow: '0.3rem 0.3rem 0 rgb(var(--color-shadow-dark))'
+                            }
+                        },
                         blockquote: {
                             border: 0,
                             fontFamily: 'Open Sans',

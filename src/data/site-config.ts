@@ -41,7 +41,7 @@ export type SiteConfig = {
 const siteConfig: SiteConfig = {
     title: "Austin Clark's Nook",
     subtitle: '...thoughts on current issues, talent development, and music.',
-    description: 'a blog for Austin Clark',
+    description: 'a site for Austin Clark',
     headerNavLinks: [
         {
             text: 'Home',
@@ -82,7 +82,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Hello and Welcome!',
-        text: "This blog is a cozy, warm, and calm space where I share my insights on the world, talent development, and my love for music. If you somehow arrived to this nook without knowing me personally, please take a look at the <a href='https://austinclark.co/about/'>About</a> page to learn more.",
+        text: "This site is a cozy, warm, and calm space where I share my insights on the world, talent development, and my love for music. If you somehow arrived to this nook without knowing me personally, take a look at the <a href='https://austinclark.co/about/'>About</a> page.",
         texted: 'None of the content on this site is written, edited, formulated, or modified in any way by artificial intelligence.',
         actions: [
             {
