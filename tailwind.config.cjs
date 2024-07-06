@@ -52,19 +52,19 @@ module.exports = {
                             }
                         },
                         'h1,h2,h3,h4,h5,h6': {
-                            fontFamily: theme('fontFamily.sans'),
+                            fontFamily: 'Open Sans',
                             fontWeight: 500
                         },
                         blockquote: {
                             border: 0,
-                            fontFamily: theme('fontFamily.sans'),
+                            fontFamily: 'Open Sans',
                             fontSize: '1.3125em',
                             fontStyle: 'italic',
-                            fontWeight: '400',
+                            fontWeight: '300',
                             lineHeight: 1.4,
                             paddingLeft: 0,
                             '@media (min-width: theme("screens.sm"))': {
-                                fontSize: '1.66667em',
+                                fontSize: '1.4em',
                                 lineHeight: 1.3
                             }
                         }
