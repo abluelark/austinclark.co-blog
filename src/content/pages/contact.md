@@ -9,5 +9,5 @@ I attempt to respond to every message I recieve within a timely manner. Email is
 
 **Email:** [mail@austinclark.co](mailto:mail@austinclark.co)
 
-**ocial Media:**
-Connect with me on social media as well. Find me on [LinkedIn](https://www.linkedin.com/in/austintclark/).
+**Social Media:**
+Find me on [LinkedIn](https://www.linkedin.com/in/austintclark/).

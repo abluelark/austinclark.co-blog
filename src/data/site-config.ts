@@ -82,8 +82,8 @@ const siteConfig: SiteConfig = {
         texted: 'None of the content on this site is written, edited, formulated, or modified in any way by artificial intelligence.',
         actions: [
             {
-                text: 'send me an email',
-                href: '/contact'
+                text: 'AI Statement',
+                href: '/ai'
             }
         ]
     },
