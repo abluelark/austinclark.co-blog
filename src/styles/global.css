@@ -15,8 +15,46 @@
         --color-bg-main: 02 22 13; /* #02160D */
         --color-bg-muted: 03 35 21; /* #032315 */
         --color-border-main: 242 241 236; /* #F2F1EC */
-        --color-shadow-dark: 17 41 30; /* #11291E */
+        --color-shadow-dark: #11291E
+        --color-scrollbar-bg: #4E5851
     }
+
+
+/* Scrollbar Styles */
+/* Base styles for the scrollbar */
+::-webkit-scrollbar {
+    width: 10px; /* Adjust width as needed */
+}
+
+/* Light Mode */
+/* Track */
+::-webkit-scrollbar-track {
+    background: #dcd8c0; /* Default track background color */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #CEC9AD; /* Default handle color */
+    border-radius: 6px; /* Rounded corners */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #454138; /* Color on hover */
+}
+
+/* Dark Mode */
+html.dark ::-webkit-scrollbar-track {
+    background: #02160D; /* Dark mode track background color */
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+    background: #11291E; /* Dark mode handle color */
+}
+
+html.dark ::-webkit-scrollbar-thumb:hover {
+    background: #F2F1EC; /* Dark mode handle color on hover */
+}
 
     /* Cyan */
     /*
