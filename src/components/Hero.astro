@@ -7,9 +7,9 @@ const hero = siteConfig.hero;
 ---
 
 {
-    (hero?.title || hero?.image?.src || hero?.text || (hero?.actions && hero.actions.length > 0)) && (
-        <section class="w-full flex flex-col gap-8 mb-16 sm:mb-24">
-            {hero.title && <h1 class="text-2xl leading-tight font-sans font-medium sm:text-4xl sm:leading-tight">{hero.title}</h1>}
+    (hero?.title || hero?.image?.src || hero?.text || hero?.texted || (hero?.actions && hero.actions.length > 0)) && (
+        <section class="w-full flex flex-col gap-8 mb-14 sm:mb-24">
+            {hero.title && <h1 class="text-2xl leading-tight font-sans font-medium sm:text-3xl sm:leading-tight">{hero.title}</h1>}
             {/* hero.image?.src && (
                 <figure>
                     <img class="w-full" src={hero.image.src} loading="lazy" decoding="async" alt={hero.image.alt || ''} />
@@ -17,8 +17,9 @@ const hero = siteConfig.hero;
                 </figure>
             ) */}
             {hero.text && <div class="max-w-none prose prose-dante sm:prose-lg" set:html={marked.parse(hero.text)} />}
+            {hero.texted && <div class="max-w-none font-bold mt-8 prose prose-dante sm:prose-lg" set:html={marked.parse(hero.texted)} />}
             {hero.actions && hero.actions.length > 0 && (
-                <div class="flex flex-wrap gap-4">
+                <div class="flex flex-wrap -mt-4 gap-4">
                     {hero.actions.map((action) => (
                         <Button href={action.href}>{action.text}</Button>
                     ))}

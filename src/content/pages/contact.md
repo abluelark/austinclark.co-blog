@@ -1,14 +1,13 @@
 ---
-title: Get in touch
+title: Contact
 seo:
   title: Contact
   description: Get in touch through email or social media! Let me know how I can help.
 ---
 
-Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:
+I attempt to respond to every message I recieve within a timely manner. Email is still the best way to contact me.
 
-_Email:_
-Feel free to drop me an email at [example@example.com](mailto:example@example.com), and I'll do my best to respond as soon as possible.
+**Email:** [mail@austinclark.co](mailto:mail@austinclark.co)
 
-_Social Media:_
-Connect with me on social media as well. Find me on [Twitter](https://twitter.com) or [LinkedIn](https://www.linkedin.com/).
+**ocial Media:**
+Connect with me on social media as well. Find me on [LinkedIn](https://www.linkedin.com/in/austintclark/).

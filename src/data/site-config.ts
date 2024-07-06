@@ -14,6 +14,7 @@ export type Hero = {
     text?: string;
     image?: Image;
     actions?: Link[];
+    texted: string;
 };
 
 export type Subscribe = {
@@ -81,10 +82,11 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Hello and Welcome!',
-        text: "This blog is a warm space where I share my insights on the world, talent development, and my love for music. If you somehow arrived to this nook without knowing me personally, please take a look at the <a href='https://austinclark.co/about/'>About</a> page to learn all the things.",
+        text: "This blog is a cozy, warm, and calm space where I share my insights on the world, talent development, and my love for music. If you somehow arrived to this nook without knowing me personally, please take a look at the <a href='https://austinclark.co/about/'>About</a> page to learn more.",
+        texted: 'None of the content on this site is written, edited, formulated, or modified in any way by artificial intelligence.',
         actions: [
             {
-                text: 'Get in Touch',
+                text: 'send me an email',
                 href: '/contact'
             }
         ]
