@@ -38,7 +38,7 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Austin Clark's Nook',
+    title: "Austin Clark's Nook",
     subtitle: '...thoughts on current issues, talent development, and music.',
     description: 'a blog for Austin Clark',
     image: {
