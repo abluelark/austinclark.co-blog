@@ -93,11 +93,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Hello and Welcome!',
-        text: "I'm **Austin Clark**. This blog is a warm space where I share my insights on the world, talent development, and my love for music. If you somehow arrived to this nook without knowing me personally, please take a look at the <a href='https://austinclark.co/about/'>About</a> page to learn all the things.",
-        image: {
-            src: '/hero.jpeg',
-            alt: 'Austin Clark with his dog Blue.'
-        },
+        text: "This blog is a warm space where I share my insights on the world, talent development, and my love for music. If you somehow arrived to this nook without knowing me personally, please take a look at the <a href='https://austinclark.co/about/'>About</a> page to learn all the things.",
         actions: [
             {
                 text: 'Get in Touch',
@@ -105,11 +101,7 @@ const siteConfig: SiteConfig = {
             }
         ]
     },
-    subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
-    },
+
     postsPerPage: 8,
     projectsPerPage: 8
 };
