@@ -6,7 +6,6 @@ module.exports = {
     theme: {
         fontFamily: {
             sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
-            serif: ['Open Sans', ...defaultTheme.fontFamily.serif]
         },
         extend: {
             textColor: {
@@ -61,7 +60,7 @@ module.exports = {
                             fontFamily: theme('fontFamily.sans'),
                             fontSize: '1.3125em',
                             fontStyle: 'italic',
-                            fontWeight: 'normal',
+                            fontWeight: '400',
                             lineHeight: 1.4,
                             paddingLeft: 0,
                             '@media (min-width: theme("screens.sm"))': {

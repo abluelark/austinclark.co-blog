@@ -42,19 +42,15 @@ const siteConfig: SiteConfig = {
     title: "Austin Clark's Nook",
     subtitle: '...thoughts on current issues, talent development, and music.',
     description: 'a blog for Austin Clark',
-    image: {
-        src: '/dante-preview.jpg',
-        alt: 'preview photo'
-    },
     headerNavLinks: [
         {
             text: 'Home',
             href: '/'
         },
-        {
-            text: 'Projects',
-            href: '/projects'
-        },
+        /*         {
+                    text: 'Projects',
+                    href: '/projects'
+                }, */
         {
             text: 'Blog',
             href: '/blog'
@@ -92,8 +88,8 @@ const siteConfig: SiteConfig = {
         ]
     },
 
-    postsPerPage: 8,
-    projectsPerPage: 8
+    postsPerPage: 4,
+    projectsPerPage: 4
 };
 
 export default siteConfig;
