@@ -38,9 +38,9 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Austin Clark',
+    subtitle: '...thoughts on life, talent development, and music.',
+    description: 'a blog for Austin Clark',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
