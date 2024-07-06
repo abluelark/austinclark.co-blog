@@ -69,6 +69,10 @@ const siteConfig: SiteConfig = {
             text: 'Contact',
             href: '/contact'
         },
+        {
+            text: 'AI Statement',
+            href: '/ai'
+        }
     ],
     socialLinks: [
         {

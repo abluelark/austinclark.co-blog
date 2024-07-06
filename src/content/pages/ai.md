@@ -22,13 +22,13 @@ LLMs are the only AI tools I use in my daily workflow; their responsibility is t
 - Closed-captioning for video editing 
 
 ### AI technologies I do not use
-Here are some common ones that many individuals use that I do not. 
+Here are some common tools that many individuals use that I do not. 
 - Image Generation
 - Audio/Video Modeling
 - Video Editing (beyond captioning)
 - Predictive Text
-- Digital Assistants (including Siri and Google Assistant)
+- Digital Assistants (including Siri, Microsoft Copilot, and Google Assistant)
 
 ---
 
-I am continually looking for new ways to use AI in my day-to-day workflow responsibly. If you disagree with my positions about AI-generated content, or want me to try some new AI tool out, please send me an email...and try not to write the email using AI.
+I am continually looking for new responsible ways to use AI in my day-to-day workflow. If you disagree with my positions about AI-generated content, or want me to try some new AI tool out, please send me an email...and try not to write the email using AI.
